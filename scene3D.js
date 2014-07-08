@@ -62,8 +62,9 @@ function TDScene(canvasName)
 		}
     }
 	
-	this.addPoint = function(point){
-		this.points.push(point);
+	this.clear = function(){
+		this.lines = [];
+		this.points = [];
 	}
 	
 	scenes.push(this);
